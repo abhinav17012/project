@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+nav ul{
+  height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+
+    list-style: none;
+    padding: 0 2vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+  color: white
+    font-weight: bolder;
+    }
+
+.flex-center{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+}
+img{
+    width: 6vw;
+    padding: 0 1vw;
+}
+.logo{
+    display: flex;
+ 
+align-items: center;
+}
+.container{
+    min-height: 80vh;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 26vw;
+    padding: 0 1vw;
+}
+.search button{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: bolder;
+    ;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border:2px solid white;
+    cursor: pointer;
+    margin: 0 13px;
+}
+button:hover{
+    background-color:white;
+}
+.slider{
+    overflow: hidden;
+}
+.slider img{
+    width: 98vw;
+    margin: 2vh auto;
+    height: 74vh;
+    
+}
+.box img{
+    width: 18vw;
+
+}
+
+.container h2{
+    margin: 0 2.5vw 2vh;
+    
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.item{
+    text-align: center;
+  
+}
+.box{
+    display:inline-flex;
+    justify-content: center;
+ flex-direction: column;
+    
+}
+.lines{
+    width: 19vw;
+    margin: 0 0 3vh;
+}
+#a{
+    font-weight: bolder;
+}
+#b{
+    color: green;
+}
+#c{
+    color:grey;
+}
+.lines{
+    display:inline-flex;
+justify-content: center;
+flex-direction: column;
+
+}
